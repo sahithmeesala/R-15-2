@@ -17,7 +17,7 @@ specific_column <- ds$Age
 print(specific_column)
 
 #specific-r&c
-specific_rows_columns <- df[c(3, 2), c(1, 3)]
+specific_rows_columns <- ds[c(3, 2), c(1, 3)]
 print(specific_rows_columns)
 
 #add new r&c
