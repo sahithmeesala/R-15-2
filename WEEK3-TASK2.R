@@ -5,8 +5,8 @@ print(matrix_from_list)
 
 #submat > 7
 given_matrix <- matrix(1:9, nrow = 3, byrow = TRUE)
-submatrix <- given_matrix[given_matrix[,] > 7, ]
-print(submatrix)
+submatrix <- given_matrix[given_matrix > 7]
+print(submatrix))
 
 #mat--1D
 given_matrix <- matrix(1:9, nrow = 3, byrow = TRUE)
