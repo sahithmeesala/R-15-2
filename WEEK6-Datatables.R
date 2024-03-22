@@ -1,5 +1,3 @@
-library(data.table)
-
 Bramhi <- data.table(
   ID=c(1,2,3,4,5),
   Name=c("Padmanabha Simha","Gajala","Battu","Suribabu Lavangam","Kill Bill Pandey"),
